@@ -99,7 +99,7 @@ body{
     }
     .ab-div{
         position: absolute;
-        top: -25rem;
+        top: -20rem;
         left: 1rem;
         right: 1rem;
         padding: 0;
@@ -112,6 +112,10 @@ body{
     }
     .basket-img, .basket-text{
         padding: .5rem;
+    }
+    .end-footer-div{
+        padding-top: 22rem;
+        padding-left: 1em;
     }
     .end-footer{
         display: flex;

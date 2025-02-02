@@ -6,3 +6,4 @@ module.exports = {
     },
     plugins: [],
   }
+  // add custom design in extend
