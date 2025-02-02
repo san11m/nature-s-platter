@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    font-family: "Sora", serif;
+}
+.hero-div{
+    background: linear-gradient(to bottom,rgb(255, 255, 255),rgb(239, 235, 227));
+}
+.nav-btn1{
+    border: .1rem solid rgb(23, 152, 0);
+}
+.nav-btn2{
+    border: .1rem solid rgb(23, 152, 0); 
+    background-color: rgb(23, 152, 0);
+}
+.menu{
+    display: none;
+}
+
+.card1, .card2, .card3{
+    box-shadow: 0 .05rem .05rem black;
+    background: rgb(239, 235, 227);
+}
+
+.small-div{
+    border-radius: 8px;
+    background-color: white;
+
+}
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgb(23, 152, 0);
+        padding: 0.5rem 1rem;
+    }
+    .menu{
+        display: inline;
+    }
+    .nav-middle, .nav-last{
+        display: none;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img{
+        margin: 0 auto;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .big-div{
+        grid-column: span 2;
+    }
+    .grid-last-div{
+        display: none;
+    }
+    .two-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .two-card1-div{
+        padding-left: 1rem;
+    }
+    .two-card1-btn{
+        font-size: .2rem;
+        padding: .3rem .5rem;
+    }
+    .two-card1-title{
+        font-size: .5rem;
+        margin-top: 1rem;
+    }
+    .two-card2-btn{
+        font-size: .4rem;
+    }
+    .arrival-and-offers{
+        margin-bottom: 24rem;
+    }
+    .footer{
+        position: relative;
+    }
+    .ab-div{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: -25rem;
+    }
+    .last-card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .basket-img, .basket-text{
+        padding: .5rem;
+    }
+    .end-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .footer-nav, .social{
+        margin-left: 1rem;
+    }
+}
