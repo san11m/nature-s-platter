@@ -44,6 +44,22 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .partner-title{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .partner-para{
+        margin-bottom: 2rem;
+    }
+    .partner{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+    .time{
+        display: none;
+    }
     .card-img{
         margin: 0 auto;
     }
@@ -83,9 +99,10 @@ body{
     }
     .ab-div{
         position: absolute;
-        margin-left: auto;
-        margin-right: auto;
         top: -25rem;
+        left: 1rem;
+        right: 1rem;
+        padding: 0;
     }
     .last-card{
         display: flex;
